@@ -1,0 +1,16 @@
+- Dataset contains the following information:
+	+ Total Food category wise year by year changes in value ($millions) & volume (mt, litpf- proof litre, etc.)
+	+ Food category wise year by year value and volume changes
+
+
+- What can we do?
+	+ Divide the dataset into separate categories: Food Volume by each sub-category (not as a whole)
+
+
+Take the total column fro food value and food volume and combine it with the countries
+For the subcategories take the other approach
+
+
+Food Values total country wise (Done)
+Food Volume (Only taking totals because there are no country wise values)
+Food Volumes normalized version will use Min-Max scaler since the data distribution is right skewed
